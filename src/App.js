@@ -1,14 +1,10 @@
 import "./App.css";
-import { Card } from "./component/Card";
-import { Footer } from "./component/Footer";
 import { Home } from "./component/Home";
-import { Jumbotron } from "./component/Jumbotron";
 import { NavBar } from "./component/Navbar";
 
 function App() {
-
   return (
-    <div className="layout">
+    <div>
       
       <div className="header">
         <NavBar />
@@ -16,18 +12,6 @@ function App() {
 
       <div className="home">
         <Home />
-      </div>
-
-      <div className="card">
-        <Card />
-      </div>
-
-      <div className="jumbotron">
-        <Jumbotron />
-      </div>
-
-      <div className="footer">
-        <Footer />
       </div>
 
     </div>

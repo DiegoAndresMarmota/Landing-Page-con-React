@@ -10,11 +10,11 @@ export class NavBar extends React.Component {
             Start Bootstrap
           </a>
         </div>
-        <div className="row  col-sm-2 offset-sm-4">
+        <div className="row col-sm-2 offset-sm-4">
           <ul className="navbar-nav">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
+                Home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">
