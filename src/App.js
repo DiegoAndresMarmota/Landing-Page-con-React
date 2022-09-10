@@ -4,8 +4,7 @@ import { NavBar } from "./component/Navbar";
 
 function App() {
   return (
-    <div>
-      
+    <div className="container">
       <div className="header">
         <NavBar />
       </div>
@@ -13,7 +12,6 @@ function App() {
       <div className="home">
         <Home />
       </div>
-
     </div>
   );
 }
