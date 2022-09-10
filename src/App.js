@@ -1,8 +1,8 @@
-//import "./App.css";
+import "./App.css";
 import { Card } from "./component/Card";
 import { Footer } from "./component/Footer";
-import { Home } from "./component/home";
-import { Jumbotron } from "./component/jumbotron";
+import { Home } from "./component/Home";
+import { Jumbotron } from "./component/Jumbotron";
 import { NavBar } from "./component/Navbar";
 
 function App() {
