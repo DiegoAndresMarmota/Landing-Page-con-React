@@ -1,6 +1,5 @@
 import React from "react";
 import { Jumbotron } from "./Jumbotron.jsx";
-import { NavBar } from "./Navbar.jsx";
 import { Card } from "./Card.jsx";
 import { Footer } from "./Footer.jsx";
 
@@ -16,7 +15,6 @@ export class Home extends React.Component {
   render() {
     return (
       <div style={styleDiv}>
-        <NavBar />
         <div className="mx-5 my-5 px-5 pt-5">
           <Jumbotron />
           <div className="row text-center">

@@ -4,7 +4,7 @@ import { NavBar } from "./component/Navbar";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="header">
         <NavBar />
       </div>
