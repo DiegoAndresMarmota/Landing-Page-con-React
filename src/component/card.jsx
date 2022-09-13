@@ -2,6 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const Card = (props) => {
+  Card.propTypes = {
+    content: PropTypes.string,
+    url: PropTypes.string,
+    label: PropTypes.string,
+    imageUrl: PropTypes.string,
+    cardTitle: PropTypes.string,
+  };
+
   return (
     <div className="card">
       <img src={props.imageUrl} className="card-img-top" alt="..." />
@@ -16,12 +24,4 @@ export const Card = (props) => {
       </div>
     </div>
   );
-};
-
-Card.propTypes = {
-  content: PropTypes.string,
-  url: PropTypes.string,
-  label: PropTypes.string,
-  imageUrl: PropTypes.string,
-  cardTitle: PropTypes.string,
 };

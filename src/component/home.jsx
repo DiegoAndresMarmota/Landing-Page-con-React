@@ -1,22 +1,24 @@
 import React from "react";
-import { Jumbotron } from "./Jumbotron.jsx";
 import { Card } from "./Card.jsx";
 import { Footer } from "./Footer.jsx";
 
 //create your first component
 
-const styleDiv = {
-  display: "flex",
-  flexDirection: "column",
-  minHeight: "100vh",
-};
 
 export const Home = () => {
+
+  const styleDiv = {
+    display: "flex",
+    flexDirection: "column",
+    minHeight: "100vh",
+  };
+
   return (
     <div style={styleDiv}>
       <div className="mx-5 my-5 px-5 pt-5">
-        <Jumbotron />
+        <jumbotron />
         <div className="row text-center">
+          
           <div className="col-sm-3">
             <Card
               imageUrl="https://via.placeholder.com/500x325"
@@ -28,6 +30,7 @@ export const Home = () => {
               label="Find Out More!"
             />
           </div>
+
           <div className="col-sm-3">
             <Card
               imageUrl="https://via.placeholder.com/500x325"
@@ -39,6 +42,7 @@ export const Home = () => {
               label="Find Out More!"
             />
           </div>
+
           <div className="col-sm-3">
             <Card
               imageUrl="https://via.placeholder.com/500x325"
@@ -50,6 +54,7 @@ export const Home = () => {
               label="Find Out More!"
             />
           </div>
+
           <div className="col-sm-3">
             <Card
               imageUrl="https://via.placeholder.com/500x325"
@@ -60,6 +65,7 @@ export const Home = () => {
               label="Find Out More!"
             />
           </div>
+          
         </div>
       </div>
       <Footer />
