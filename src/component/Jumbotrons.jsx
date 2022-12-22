@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Jumbotron = () => {
+const Jumbotron = () => {
   return (
     <>
       <section className="py-5 container bg-secondary">
@@ -22,3 +22,5 @@ export const Jumbotron = () => {
     </>
   );
 };
+
+export default Jumbotron;

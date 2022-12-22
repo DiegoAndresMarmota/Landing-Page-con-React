@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Card = () => {
+const Card = () => {
   return (
     <>
       <div className="card text-center" style={{ width: "18rem" }}>
@@ -26,3 +26,5 @@ export const Card = () => {
     </>
   );
 };
+
+export default Card;
