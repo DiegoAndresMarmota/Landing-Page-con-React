@@ -1,40 +1,40 @@
 import React from "react";
 
-import Navbar from "./Navbars"
-import Jumbotron from "./Jumbotrons";
-import Card from "./Card";
-import Footer from "./Footers";
+import Navbars from "./Navbars"
+import Jumbotrons from "./Jumbotrons";
+import Cards from "./Cards";
+import Footers from "./Footers";
 
-const Home = () => {
+const Homes = () => {
   return (
     <>
-      <Navbar />
-      <Jumbotron />
+      <Navbars />
+      <Jumbotrons />
       <div className="container my-3">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
           <div className="col-4 my-3">
-            <Card />
+            <Cards />
           </div>
         </div>
       </div>
-      <Footer />
+      <Footers />
     </>
   );
 };
 
-export default Home;
+export default Homes;

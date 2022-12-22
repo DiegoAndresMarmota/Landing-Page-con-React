@@ -1,10 +1,10 @@
 import "./App.css";
-import Home from "./component/Homes";
+import Homes from "./component/Homes";
 
 function App() {
   return (
     <div className="container-fluid">
-        <Home />
+        <Homes />
     </div>
   );
 }
